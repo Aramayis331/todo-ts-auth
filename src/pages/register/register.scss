@@ -1,0 +1,16 @@
+.register {
+    width: 70%;
+	margin: 20px auto;
+	padding: 15px 0px;
+	background-color: #113c3c;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    #age::-webkit-outer-spin-button,
+    #age::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+}

@@ -1,0 +1,99 @@
+.login {
+	width: 70%;
+	margin: 20px auto;
+	padding: 15px 0px;
+	background-color: #113c3c;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	&__titel {
+			cursor: pointer;
+			font-weight: 600;
+			color: #ffffff;
+			font-size: 20px;
+			margin-bottom: 15px;
+		}
+		&__error {
+			width: 50%;
+			color: red;
+			font-weight: 500;
+			font-size: 13px;
+			line-height: 15px;
+			margin-top: 4px;
+		}
+		&__input {
+			width: 50%;
+			height: 30px;
+			position: relative;
+			margin-top: 15px;
+			cursor: pointer;
+			&__text {
+				width: 100%;
+				font-size: 14px;
+				padding: 6px 25px 6px 4px;
+				margin-bottom: 15px;
+				background: #92e8f3;
+				border: 2px solid #000000;
+				border-radius: 5px;
+				outline: none;
+				color: #2EAAB5;
+				transition: 0.4s;
+				cursor: pointer;
+				&:focus {
+					border: 2px solid #ffffff;
+				}
+				&:focus ~ .login__input__label,
+				&:not(:placeholder-shown):not(:focus) ~ .login__input__label {
+					background: #2EAAB5;
+					color: #ffffff;
+					transition: 0.4s;
+					font-size: 12px;
+					font-weight: 500;
+					top: -10px;
+					left: 10px;
+				}
+			}
+			&__label {
+				position: absolute;
+				top: 2px;
+				left: 8px;
+				color: #000000;
+				cursor: pointer;
+				border-radius: 12px;
+				padding: 2px 3px;
+				transition: 0.4s;
+			}
+			&__div__icon {
+				position: absolute;
+				right: 5px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 100%;	
+				top: 2px;
+				cursor: pointer;
+				transition: 0.4s;
+				&:hover {
+					color: #2EAAB5;
+				}
+			}
+		}
+		&__button {
+			margin-top: 10px;
+			cursor: pointer;
+			background: none;
+			border: 2px solid #92e8f3;
+			color: #92e8f3;
+			border-radius: 5px;
+			padding: 5px 30px;
+			transition: 0.4s;
+			font-size: 14px;
+			font-weight: 600;
+			&:hover {
+				background: #2EAAB5;
+				color: #bae8e8;
+			}
+		}
+	}

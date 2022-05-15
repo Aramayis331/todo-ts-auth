@@ -1,0 +1,6 @@
+export enum UsersActionTypes {
+    ADD_REGISTER_USER = 'ADD_REGISTER_USER',
+    ADD_AUTH_USER = 'ADD_AUTH_USER',
+    LOG_OUT_USER = 'LOG_OUT_USER',
+    CHECK_IN_AUTH = 'CHECK_IN_AUTH'
+}

@@ -1,0 +1,42 @@
+.todos {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .todo__list {
+        width: 100%;
+        margin-top: 20px;
+        border: 2px solid #92e8f3;
+        padding: 5px;
+        border-radius: 5px;
+        .todo__list__titel {
+            color: #000;
+            width: 100%;
+            font-weight: 700;
+            text-align: start;
+        }
+        .todo__list__empty {
+            color: #fff;
+            font-weight: 700;
+        }
+    }
+    .todo__basket {
+        width: 100%;
+        margin-top: 20px;
+        border: 2px solid #92e8f3;
+        padding: 5px;
+        border-radius: 5px;
+        .todo__basket__titel {
+            color: #000;
+            width: 100%;
+            font-weight: 700;
+            text-align: start;
+        }
+        .todo__basket__empty {
+            color: #fff;
+            font-weight: 700;
+        }
+    }
+}
